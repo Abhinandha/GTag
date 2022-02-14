@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import ReactGA from 'react-ga';
-ReactGA.initialize({gtmId :'G-4WN9RXJ7LX'})
+ReactGA.initialize({gtmId :'G-H9YH1TB25S'})
 
 
 function Login() {
