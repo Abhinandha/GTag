@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from "react";
 import ReactGA from 'react-ga';
-ReactGA.initialize({gtmId :'G-H9YH1TB25S'})
-
 
 function Login() {
 
   useEffect(()=>{
+    ReactGA.initialize('UA-220109812-1')
     ReactGA.pageview(window.location.pathname + window.location.search);
   })
   
